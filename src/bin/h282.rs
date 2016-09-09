@@ -44,6 +44,8 @@
 //! in ascending (or descending) order; it can be built piecewise, with pieces starting from
 //! different givens. As in the Sudoku case, the resolution of harder Hidato or Numbrix puzzles
 //! requires the use of more complex techniques - in particular of various types of chain patterns.
+//!
+//! https://www.reddit.com/r/dailyprogrammer/comments/51wg0j/20160909_challenge_282_hard_hidato/
 
 fn main() {
 

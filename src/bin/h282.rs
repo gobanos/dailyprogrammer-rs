@@ -50,3 +50,16 @@
 fn main() {
 
 }
+
+struct Hidato {
+    datas: Vec<Vec<Cell>>
+}
+
+type Candidates = Vec<usize>;
+
+enum Cell {
+    Empty(Candidates),
+    Blocked,
+    Fixed(usize),
+    Guess(usize),
+}
